@@ -25,7 +25,7 @@ $title-color: inherit;
 $subtitle-color: inherit;
 $title-weight: 700;
 $subtitle-weight: 700;
-$body-size: 1em;
+$body-size: 1.1em;
 
 // Import only what you need from Bulma
 @import "../bulma/bulma.sass";
@@ -35,5 +35,5 @@ $body-size: 1em;
 }
 
 .overlay-head {
-   background: #583a0869;
+   background: #613f0591;
 }

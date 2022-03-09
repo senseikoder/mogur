@@ -289,7 +289,7 @@ th:not([align]) {
 
 html {
   background-color: white;
-  font-size: 1em;
+  font-size: 1.1em;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   min-width: 300px;
@@ -10135,5 +10135,5 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .overlay-head {
-  background: #583a0869;
+  background: #613f0591;
 }
