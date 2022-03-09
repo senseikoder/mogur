@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Merienda+One&display=swap');
+
+// Set your brand colors
+// $azul-oscuro: #06325b;
+// $brown: #757763;
+// $beige-light: #bfb5a1;
+// $beige-lighter: #b2a68f;
+
+// Update Bulma's global variables
+// $grey-dark: $brown;
+// $grey-light: $beige-light;
+// $grey-lighter: $beige-lighter;
+// $primary: $azul-oscuro;
+// $link: $pink;
+
+// Update some of Bulma's component variables
+$body-background-color: white;
+$body-family: "Dosis", sans-serif;
+$family-secondary: 'Merienda One', cursive;
+$text-strong: inherit;
+$title-color: inherit;
+$subtitle-color: inherit;
+$title-weight: 700;
+$subtitle-weight: 700;
+$body-size: 1em;
+
+// Import only what you need from Bulma
+@import "../bulma/bulma.sass";
+
+.banner-head {
+   background: url(../img/banner-head.jpg) center / cover;
+}
+
+.overlay-head {
+   background: #583a0869;
+}
