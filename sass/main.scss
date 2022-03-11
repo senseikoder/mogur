@@ -37,3 +37,8 @@ $body-size: 1.1em;
 .overlay-head {
    background: #613f0591;
 }
+ 
+section figure img {
+   border-radius: 4%;
+   box-shadow: 5px 6px 8px darkgray;
+}
